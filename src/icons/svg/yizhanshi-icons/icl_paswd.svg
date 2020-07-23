@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ico_paswd</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="800"></rect>
+        <polygon id="path-3" points="-2.66453526e-13 2.83661983e-13 400 2.83661983e-13 400 560 -2.25444663e-13 560"></polygon>
+        <filter x="-8.8%" y="-4.5%" width="117.5%" height="112.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Asset-Templates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6.登录/登录页4" transform="translate(-930.000000, -428.000000)">
+            <g id="login_bg">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="蒙版" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <rect id="矩形" fill-opacity="0.4" fill="#003A8C" mask="url(#mask-2)" x="0" y="0" width="1440" height="800"></rect>
+            </g>
+            <g id="编组-3" transform="translate(860.000000, 130.000000)">
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <g id="编组-2" transform="translate(60.000000, 232.000000)" fill-rule="nonzero">
+                    <g id="编组-13">
+                        <g id="编组-11" transform="translate(0.000000, 64.000000)">
+                            <g id="编组-8" transform="translate(10.000000, 2.000000)">
+                                <rect id="Rectangle-path" fill="#000000" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                                <path d="M13.7333087,16 L3.06667574,16 C2.47757119,16 2,15.5223667 2,14.9330167 L2,6.93303333 C2,6.34428333 2.47755564,5.86665 3.06667574,5.86665 L13.7333087,5.86665 C14.3223666,5.86665 14.8,6.34428333 14.8,6.93303333 L14.8,14.9330167 C14.8,15.5223333 14.3223666,16 13.7333709,16 L13.7333087,16 Z M8.39994556,8.53348333 C7.51607874,8.53348333 6.79999417,9.24948333 6.79999417,10.1333667 C6.79999417,10.7238333 7.12398533,11.2344333 7.60001653,11.5112 L7.60001653,13.0335667 C7.60001653,13.4933167 7.95827659,13.8666833 8.40002333,13.8666833 C8.84161452,13.8666833 9.20004569,13.4933167 9.20004569,13.0335667 L9.20004569,11.5112 C9.67606133,11.2344333 9.99999028,10.7238333 9.99999028,10.1333667 C9.99999028,9.24958333 9.28390571,8.53356667 8.40002333,8.53356667 L8.39993,8.53348333 L8.39994556,8.53348333 Z M8.39994556,1.59988333 C6.63278747,1.59988333 5.19994944,3.0324 5.19994944,4.7997 L3.60002917,4.7997 C3.60002917,2.14901667 5.74893621,0 8.39994556,0 C11.0509705,0 13.1999708,2.14903333 13.1999708,4.7997 L11.6000039,4.7997 C11.6000292,3.0324 10.1671814,1.59988333 8.39996111,1.59988333 L8.39996111,1.59988333 L8.39994556,1.59988333 Z" id="Shape" fill="#E2E2E2"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

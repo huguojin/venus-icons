@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1 {
+        clip-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        opacity: 0.65;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        stroke: rgba(112,112,112,0.01);
+        stroke-width: 0px;
+      }
+
+      .cls-6 {
+        fill: #001529;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="路径_5303" data-name="路径 5303" class="cls-1" d="M0,0H16V16H0Z"/>
+    </clipPath>
+  </defs>
+  <g id="组_4903" data-name="组 4903" class="cls-3" transform="translate(0 24)">
+    <g id="组_4859" data-name="组 4859" transform="translate(0 -24)">
+      <g id="组_4856" data-name="组 4856" class="cls-4">
+        <g id="组_4855" data-name="组 4855">
+          <path id="路径_5302" data-name="路径 5302" class="cls-5" d="M0,0H16V16H0Z"/>
+        </g>
+      </g>
+      <g id="组_4858" data-name="组 4858" class="cls-4">
+        <g id="组_4857" data-name="组 4857" transform="translate(1.333 2.667)">
+          <path id="路径_5304" data-name="路径 5304" class="cls-6" d="M16.4,5.6H10L8.4,4H3.6A1.6,1.6,0,0,0,2.008,5.6L2,15.2a1.6,1.6,0,0,0,1.6,1.6H16.4A1.6,1.6,0,0,0,18,15.2v-8A1.6,1.6,0,0,0,16.4,5.6ZM12.4,8a1.6,1.6,0,1,1-1.6,1.6A1.6,1.6,0,0,1,12.4,8Zm3.2,6.4H9.2v-.8c0-1.064,2.136-1.6,3.2-1.6s3.2.536,3.2,1.6Z" transform="translate(-3.333 -4.667)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

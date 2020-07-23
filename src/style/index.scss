@@ -1,0 +1,128 @@
+$baseElement: body,
+div,
+span,
+header,
+footer,
+nav,
+section,
+aside,
+article,
+ul,
+dl,
+dt,
+dd,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+b,
+textarea,
+button,
+input,
+select,
+figure,
+figcaption,
+label;
+
+// 配置通用样式
+#{$baseElement} {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  border: none;
+  font-family: 'PingFangSC-Regular', 'PingFang SC', 'Microsoft Yahei', '微软雅黑', '宋体', Arial, sans-serif, 'Source Sans Pro';
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-size: 14px;
+
+  &:hover {
+    outline: none;
+  }
+}
+body,
+html,
+#app {
+  height: 100%;
+  overflow: hidden;
+}
+.red {
+    color: rgb(235, 88, 88);
+}
+.orange {
+    color: orange;
+}
+.green {
+    color: rgb(59, 175, 59);
+}
+.skeBlue {
+    color: skyblue;
+}
+
+/* IE */
+html * {
+    scrollbar-face-color: #c1c1c1;
+    scrollbar-shadow-color: #c1c1c1;
+    scrollbar-highlight-color: #f1f1f1;
+    scrollbar-3dlight-color: #f1f1f1;
+    scrollbar-darkshadow-color: #c1c1c1;
+    scrollbar-track-color: #f1f1f1;
+    scrollbar-arrow-color: #505050;
+  }
+  
+  /* Webkit */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #f5f5f5;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #f5f5f5;
+    background-color: #fff;
+  }
+
+  // 调整Dialog 的body原始间距太宽的问题
+.el-dialog {
+  .el-dialog__header {
+    border-bottom: 1px solid #e5e5e5;
+    // padding-top: 15px;
+    padding: 18px 24px 16px;
+
+    .el-dialog__title {
+      font-size: 16px !important;
+      line-height: 16px !important;
+      font-weight: 600;
+    }
+
+    .el-dialog__close {
+      font-size: 18px;
+      font-weight: 800;
+    }
+  }
+
+  .el-dialog__body {
+    padding: 24px 60px !important;
+  }
+
+  .el-dialog__footer {
+    padding: 16px 24px;
+    border-top: solid 1px #e5e5e5;
+  }
+}
